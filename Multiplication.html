@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiplication Table</title>
+	<style>
+	body {
+		background: #F4F4F4;
+		font-family: Times New Roman;
+		margin: 0;
+		background-position: center center; 
+		width:80%; 
+        margin-left:10%; 
+        height:200px; 
+        margin-top: 8%;
+        font-size: 25px;
+
+	}
+</style>
+<script type="text/javascript" src="multiply.js"></script>
+</head>
+<body>
+	<form>
+	<h1><center><font color="red">Welcome User</font></center></h1>
+	<table border="2" align="center">
+		<tr>
+			<td colspan="2" align="center"><strong>Multiplication Table</strong></td>
+		</tr>
+		<tr>
+			<td>Enter number</td>
+			<td><input type="number" name="num"></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><input type="button" name="submit" onClick="multiply(num)" value="Submit">
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><span id="mul"></span></td>
+		</tr>
+		</tr>
+	</table>
+</form>
+
+</body>
+</html>
